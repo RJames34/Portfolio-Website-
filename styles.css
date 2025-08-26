@@ -1,6 +1,72 @@
 
-.navbar{
-    background-color: pink;
-    width: 600px;
-    height: 600px;
+.body{
+    padding: 0;
+    margin: 0;
+   
 }
+/* Styling the nav bar */
+.navbar{
+
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    width: 200px;
+    height: 715px; 
+    
+}
+
+/* Styling the navbars buttons */
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.pages{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border: 6px solid #ffab40;
+    border-radius: 20px;
+}
+
+/* Styling and setting up the image containers */
+#img{
+    position: absolute;
+    display: inline-flex;
+    background-color:pink;
+    height: 400px;
+    width: 350px;
+    right: 150px;
+    top: 150px;
+    z-index: 100;
+}
+#img-style-1{
+    display: inline-flex;
+    background-color:#ffbc67;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    right: 119px;
+    top: 119px;
+}
+
+#img-style-2{
+    display: inline-flex;
+    background-color:#ffab40;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    right: 185px;
+    top: 185px;
+    
+}
+
+
