@@ -1,9 +1,10 @@
 
-.body{
-    padding: 0;
-    margin: 0;
-   
+body{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
 }
+
 /* Styling the nav bar */
 .navbar{
 
@@ -13,15 +14,17 @@
     align-items: center;
     background-color: rgb(59, 59, 59);
     width: 200px;
-    height: 715px; 
-    
+    height: 738px; 
+    position: fixed;
+    z-index: 200;
+
 }
 
 /* Styling the navbars buttons */
-
 a{
     text-decoration: none;
     color:black;
+    
 }
 .pages{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,6 +38,7 @@ a{
     height: 90px;
     border: 6px solid #ffab40;
     border-radius: 20px;
+    z-index: 100;
 }
 
 /* Styling and setting up the image containers */
@@ -44,9 +48,9 @@ a{
     background-color:pink;
     height: 400px;
     width: 350px;
-    right: 150px;
+    right: 130px;
     top: 150px;
-    z-index: 100;
+    z-index: 98;
 }
 #img-style-1{
     display: inline-flex;
@@ -54,8 +58,9 @@ a{
     height: 400px;
     width: 350px;
     position: absolute;
-    right: 119px;
+    right: 90px;
     top: 119px;
+    z-index: 2;
 }
 
 #img-style-2{
@@ -64,9 +69,52 @@ a{
     height: 400px;
     width: 350px;
     position: absolute;
-    right: 185px;
+    right: 175px;
     top: 185px;
     
+} 
+
+/* Styling more elements of the about page */
+
+#style-1, #style-1-2 {
+    display: inline-flex;
+    width: 100%;
+    left: 180px;
+    height: 30px;
+    background-color: #e69138ff;
+    position: absolute;
+    transform: rotate(8deg);
+    top: 80px;
+    right: -1px;
+    z-index: 99;
+    opacity: 0.8;
+    
+}
+
+#style-1-2 {
+    background-color: #b7b7b7ff;
+    top: 125px;
+    z-index: 1;
+}
+
+#style-2, #style-2-2 {
+    display: inline-flexbox;
+    width: 100%;
+    height: 30px;
+    background-color: #e69138ff;
+    position: absolute;
+    transform: rotate(8deg);
+    bottom: 20px;
+    right: 1px;
+    left: 180px;
+    z-index: 99;
+    opacity: 0.8;
+    
+}
+
+#style-2-2 {
+    background-color: #b7b7b7ff;
+    bottom: -20px;
 }
 
 
